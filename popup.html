@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 280px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      color: #333;
+      background: #fff;
+    }
+    .header {
+      background: linear-gradient(135deg, #00BE06, #1DB100);
+      color: #fff;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header img { width: 28px; height: 28px; }
+    .header h1 { font-size: 14px; font-weight: 600; }
+    .body { padding: 14px 16px; }
+    .desc { line-height: 1.5; color: #555; margin-bottom: 12px; }
+    .desc b { color: #333; }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-top: 1px solid #eee;
+    }
+    .label { font-size: 12px; color: #888; }
+    .value { font-size: 12px; font-weight: 500; }
+    kbd {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 1px 5px;
+      font-family: inherit;
+      font-size: 11px;
+    }
+    .status-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+    .status-dot.active { background: #00BE06; }
+    .status-dot.inactive { background: #ccc; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="icons/icon48.png" alt="">
+    <h1 id="title"></h1>
+  </div>
+  <div class="body">
+    <p class="desc" id="desc"></p>
+    <div class="row">
+      <span class="label" id="statusLabel"></span>
+      <span class="value" id="statusValue"></span>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

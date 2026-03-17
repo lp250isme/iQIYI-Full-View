@@ -1,0 +1,30 @@
+{
+  "extName": {
+    "message": "iQIYI Full View",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Press F to toggle in-page fullscreen for iQIYI videos.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "iQIYI Full View",
+    "description": "Popup heading"
+  },
+  "popupDesc": {
+    "message": "Press <b>F</b> on any iQIYI video page to toggle in-page fullscreen. Press <b>Escape</b> to exit.",
+    "description": "Popup usage instructions"
+  },
+  "popupStatus": {
+    "message": "Status",
+    "description": "Label for active status"
+  },
+  "popupActive": {
+    "message": "Active on this page",
+    "description": "Shown when on iQIYI page"
+  },
+  "popupInactive": {
+    "message": "Not an iQIYI page",
+    "description": "Shown when not on iQIYI page"
+  }
+}
