@@ -55,3 +55,8 @@
 :root.iqiyi-inline-fullscreen .intl-play-right {
   display: none !important;
 }
+
+/* ========== Hide the sidebar-expand arrow in full view ========== */
+:root.iqiyi-inline-fullscreen .arrow-right {
+  display: none !important;
+}

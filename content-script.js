@@ -87,6 +87,14 @@ if (!window.__iqiyiInlineFsLoaded) {
 
   const toggleInlineFullscreen = () => {
     if (document.documentElement.classList.contains(ROOT_CLASS)) {
+      // SPA episode switch can replace the player DOM while active —
+      // the old root is detached so full view is visually broken.
+      // Pressing F then means "make it full view again", not "exit".
+      if (activeRoot && !activeRoot.isConnected) {
+        disableInlineFullscreen();
+        enableInlineFullscreen();
+        return;
+      }
       disableInlineFullscreen();
     } else {
       enableInlineFullscreen();
