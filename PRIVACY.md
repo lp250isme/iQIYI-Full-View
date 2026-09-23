@@ -4,7 +4,7 @@
 
 ## Overview
 
-iQIYI Full View is a browser extension that provides in-page fullscreen functionality for iQIYI (iq.com / iqiyi.com) video pages. Your privacy is important to us.
+iQIYI Full View is a browser extension that provides in-page fullscreen functionality for iQIYI (iq.com / iqiyi.com) and LINE TV (linetv.tw) video pages. Your privacy is important to us.
 
 ## Data Collection
 
@@ -19,12 +19,12 @@ This extension does **not** collect, store, transmit, or share any personal data
 
 ## How the Extension Works
 
-The extension operates entirely within your browser. It injects a content script and CSS stylesheet **only** on iQIYI domains (iq.com and iqiyi.com) to modify the visual layout of the video player when you press the F key. All processing happens locally on your device.
+The extension operates entirely within your browser. It injects a content script and CSS stylesheet **only** on iQIYI domains (iq.com and iqiyi.com) and LINE TV (linetv.tw) to modify the visual layout of the video player when you press the F key. All processing happens locally on your device.
 
 ## Permissions
 
-- **Scripting:** Used to register a content script in the page's main world, which is required to detect and manipulate the iQIYI video player DOM elements.
-- **Host permissions (iq.com, iqiyi.com):** Required to inject the content script and CSS on iQIYI video pages. No other websites are accessed.
+- **Scripting:** Used to register a content script in the page's main world, which is required to detect and manipulate the video player DOM elements.
+- **Host permissions (iq.com, iqiyi.com, linetv.tw):** Required to inject the content script and CSS on iQIYI and LINE TV video pages. No other websites are accessed.
 
 ## Changes to This Policy
 

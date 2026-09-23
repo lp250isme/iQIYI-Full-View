@@ -5,6 +5,7 @@
   contain: none !important;
   filter: none !important;
   perspective: none !important;
+  z-index: auto !important;
 }
 
 /* ========== Lock page scroll ========== */

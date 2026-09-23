@@ -28,7 +28,7 @@ iQIYI's web player only offers **native browser fullscreen** — which hides you
 - ⌨️ **One key** — `F` toggles in-page fullscreen, `Esc` exits. That's the whole interface.
 - 🖥️ **Fills the window, not the screen** — your tabs, bookmarks, and system taskbar stay visible. Great for second-screen / multitasking.
 - 🪟 **Survives tricky layouts** — clears ancestor `transform` / `contain` CSS that normally breaks fixed positioning, hides the sidebar, and locks page scroll so nothing peeks through.
-- 🎞️ **Both iQIYI sites** — works on the international **iq.com** and the China **iqiyi.com**.
+- 🎞️ **Both iQIYI sites + LINE TV** — works on the international **iq.com**, the China **iqiyi.com**, and **LINE TV** (linetv.tw).
 - 🌐 **Bilingual** — UI follows your browser language (English / 繁體中文).
 - 🔒 **Zero data collected** — no tracking, no accounts, no servers. Everything runs locally.
 - 🪶 **Featherweight** — Manifest V3, `scripting` permission only, no remote code.
@@ -68,7 +68,7 @@ No background polling, no network calls — it only acts when you press the key.
 
 - **Is this the same as the browser's fullscreen?** No — that's the point. This stays *inside* the browser window, so your tabs and taskbar remain visible.
 - **Does it collect any data?** None. See [PRIVACY.md](PRIVACY.md). 🔒
-- **It's not working on a video page.** Make sure you're on an `iq.com` / `iqiyi.com` **video** page, then reload the tab once after installing.
+- **It's not working on a video page.** Make sure you're on an `iq.com` / `iqiyi.com` / `linetv.tw` **video** page, then reload the tab once after installing.
 - **Which browsers?** Any Chromium-based browser (Chrome, Edge, Brave, Arc, Vivaldi).
 
 ### 🔒 Privacy
@@ -94,7 +94,7 @@ MIT
 - ⌨️ **一個鍵** — `F` 切換頁內全螢幕、`Esc` 退出，介面就這麼簡單。
 - 🖥️ **填滿視窗，不是整個螢幕** — 分頁、書籤、系統工作列都還在，適合一邊看一邊做事。
 - 🪟 **應付難搞的版面** — 清掉祖先元素那些會破壞 fixed 定位的 `transform` / `contain`、隱藏側欄、鎖住頁面捲動，不會有東西露出來。
-- 🎞️ **兩個愛奇藝站都支援** — 國際版 **iq.com** 與中國版 **iqiyi.com**。
+- 🎞️ **兩個愛奇藝站＋LINE TV** — 國際版 **iq.com**、中國版 **iqiyi.com**，以及 **LINE TV**（linetv.tw）。
 - 🌐 **雙語** — 介面跟著瀏覽器語言（English / 繁體中文）。
 - 🔒 **完全不收集資料** — 不追蹤、不需帳號、不連伺服器，一切都在本機執行。
 - 🪶 **極輕量** — Manifest V3、僅用 `scripting` 權限、無遠端程式碼。
@@ -134,7 +134,7 @@ MIT
 
 - **這跟瀏覽器的全螢幕一樣嗎？** 不一樣，這正是重點。它停在**瀏覽器視窗內**，分頁和工作列都還看得到。
 - **會收集資料嗎？** 完全不會，詳見 [PRIVACY.md](PRIVACY.md)。🔒
-- **在影片頁沒反應？** 確認你在 `iq.com` / `iqiyi.com` 的**影片**頁面，安裝後把分頁重新整理一次。
+- **在影片頁沒反應？** 確認你在 `iq.com` / `iqiyi.com` / `linetv.tw` 的**影片**頁面，安裝後把分頁重新整理一次。
 - **支援哪些瀏覽器？** 任何 Chromium 核心的瀏覽器（Chrome、Edge、Brave、Arc、Vivaldi）。
 
 ### 🔒 隱私

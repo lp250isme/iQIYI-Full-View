@@ -8,7 +8,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
   const url = tab ? tab.url || "" : "";
   let isIqiyi = false;
   try {
-    isIqiyi = /(?:^|\.)iq(?:iyi)?\.com/i.test(new URL(url).hostname);
+    isIqiyi = /(?:^|\.)(?:iq(?:iyi)?\.com|linetv\.tw)$/i.test(new URL(url).hostname);
   } catch (_) {
     // URL unavailable (e.g. chrome:// pages)
   }

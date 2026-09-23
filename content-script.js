@@ -27,7 +27,8 @@ if (!window.__iqiyiInlineFsLoaded) {
     const flashbox = document.getElementById("flashbox");
     if (flashbox) return flashbox;
 
-    const selectors = ["#intl-video-wrap", ".intl-video-wrap", ".intl-video-area"];
+    // LINE TV (linetv.tw) uses video.js
+    const selectors = ["#intl-video-wrap", ".intl-video-wrap", ".intl-video-area", ".video-js"];
     for (const sel of selectors) {
       const el = document.querySelector(sel);
       if (el) return el;
@@ -45,7 +46,8 @@ if (!window.__iqiyiInlineFsLoaded) {
         cs.transform !== "none" ||
         cs.willChange.includes("transform") ||
         cs.willChange.includes("width") ||
-        cs.contain !== "none"
+        cs.contain !== "none" ||
+        cs.zIndex !== "auto" // stacking context traps our z-index (LINE TV header paints above)
       ) {
         parent.setAttribute(CLEARED_ATTR, "");
         cleared.push(parent);

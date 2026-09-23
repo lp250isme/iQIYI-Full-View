@@ -4,7 +4,7 @@
     "description": "Extension name"
   },
   "extDescription": {
-    "message": "Press F to toggle in-page fullscreen for iQIYI videos.",
+    "message": "Press F to toggle in-page fullscreen for iQIYI and LINE TV videos.",
     "description": "Extension description"
   },
   "popupTitle": {
@@ -12,7 +12,7 @@
     "description": "Popup heading"
   },
   "popupDesc": {
-    "message": "Press <b>F</b> on any iQIYI video page to toggle in-page fullscreen. Press <b>Escape</b> to exit.",
+    "message": "Press <b>F</b> on any iQIYI or LINE TV video page to toggle in-page fullscreen. Press <b>Escape</b> to exit.",
     "description": "Popup usage instructions"
   },
   "popupStatus": {
@@ -24,7 +24,7 @@
     "description": "Shown when on iQIYI page"
   },
   "popupInactive": {
-    "message": "Not an iQIYI page",
+    "message": "Not an iQIYI / LINE TV page",
     "description": "Shown when not on iQIYI page"
   }
 }
